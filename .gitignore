@@ -1,0 +1,39 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Environment and dependency files
+.env
+*.env
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Test output
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+
