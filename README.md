@@ -39,17 +39,11 @@ The captured screenshot will be saved in the Screenshots folder and displayed in
 File Structure
 Screenshot-App/
 │
-
 ├── capture.py          # Captures screenshots and sends file paths to RabbitMQ
-
 ├── gui.py              # Displays screenshots received from RabbitMQ
-
 ├── Screenshots/        # Directory where screenshots are saved
-
 ├── requirements.txt    # List of required Python libraries
-
 ├── .gitignore          # Git ignore file for excluding unnecessary files
-
 └── README.md           # Project documentation
 
 Configuration
