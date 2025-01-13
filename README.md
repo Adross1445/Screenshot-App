@@ -34,7 +34,6 @@ Before running this project, ensure you have the following installed:
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/MacOS
-   venv\Scripts\activate     # Windows
 3. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
@@ -58,14 +57,14 @@ Before running this project, ensure you have the following installed:
 ---
 
 ## File Structure
-Screenshot-App/
-│
-├── capture.py          # Captures screenshots and sends file paths to RabbitMQ
-├── gui.py              # Displays screenshots received from RabbitMQ
-├── Screenshots/        # Directory where screenshots are saved
-├── requirements.txt    # List of required Python libraries
-├── .gitignore          # Git ignore file for excluding unnecessary files
-└── README.md           # Project documentation
+
+- **Screenshot-App/**
+  - `capture.py`: Captures screenshots and sends file paths to RabbitMQ.
+  - `gui.py`: Displays screenshots received from RabbitMQ.
+  - `Screenshots/`: Directory where screenshots are saved.
+  - `requirements.txt`: List of required Python libraries.
+  - `.gitignore`: Git ignore file for excluding unnecessary files.
+  - `README.md`: Project documentation.
 
 ---
 
