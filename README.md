@@ -33,7 +33,7 @@ Before running this project, ensure you have the following installed:
 2. Create a virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # Linux/MacOS
+   source venv/bin/activate
 3. Install the required Python packages:
    ```bash
    pip install -r requirements.txt
